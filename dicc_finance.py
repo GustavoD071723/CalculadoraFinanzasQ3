@@ -5,9 +5,9 @@ def create_account(accounts, name, account_type):
 
     global global_accouts_id
     account = {
+        "id": global_accouts_id,
         "name": name,
         "type": account_type,
-        "balance": 0,
         "transactions": []
     }
     # Agregamos la cuenta al diccionario de cuentas

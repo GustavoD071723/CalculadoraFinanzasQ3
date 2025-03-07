@@ -1,7 +1,6 @@
 from finance import create_account, add_transaction, get_account_balance, get_total_balance
 #Crear el menu
 def main():
-
     #Creamos un diccionario para almacenar las cuentas
     account = []
 
